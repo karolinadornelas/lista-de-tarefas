@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(189, 185, 185);
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+}
+
+#container{
+  position: absolute;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 500px;
+}
+
+.tarefas{
+  margin-bottom: 45px;
+  width: auto;
+  height: 500px;
+  min-width: 210px;
+  padding: 25px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #252323;
+  box-shadow: #5f5d5d;
+}
+
+.main-box{
+  margin-top: 20px;
+  width: inherit;
+  background-color: rgb(201, 159, 171);
+  box-shadow: 6px 6px #f3d8d8;
+}
+
+.top-box{
+  border: 1px solid #252323;
+  padding: 5px 5px 0px 5px;
+}
+
+.tiny-box{
+  border: 1px solid #252323;
+  padding: 5px;
+  overflow: auto;
+  margin-bottom: 5px;
+}
+
+.title-box{
+  float: left;
+  margin-top: 2.5px;
+  width: calc(100% - 50px);
+  font-size: 14px;
+  color: #252323;
+  line-height: 1em;
+  max-height: 1em;
+  overflow: hidden;
+}
+
+.nav-box{
+  float: right;
+  display: flex;
+}
+
+.smallbox{
+  margin-right: 3px;
+  padding: 3px;
+  width: 5px;
+  height: 5px;
+  border: 1px solid #252323;
+  cursor: help;
+}
+
+.sm-min{
+  margin-top: 4px;
+  width: 5px;
+  height: 1px;
+  background: #252323;
+}
+
+.sm-max{
+  margin-top: -1px;
+  margin-left: -1px;
+  width: 5px;
+  height: 5px;
+  border: 1px solid #252323;
+}
+
+.sm-x{
+  margin-top: -5px;
+  margin-left: -1.75px;
+  height: 0;
+  font-size: 9px;
+  color: #252323;
+}
+
+header, form {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form input {
+  min-width: 40%;
+}
+
+form input, form button {
+  padding: 5px 5px 0px 5px;
+  font-size: 14px;
+  border: 1px solid #252323;
+  background: #ffffff;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+form button {
+  color: #ffffff;
+  background: #000000;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+form button:hover {
+  background: #ffffff;
+  color: #ffffff;
+}
+
+.todoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.listaTarefas {
+  min-width: 30%;
+  list-style: none;
+
+}
+
+.todo {
+  margin: 1.5rem;
+  background: #ffffff;
+  color: #000000;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+
+.todo li {
+  flex: 1.5;
+}
+
+.completedBtn {
+  background: #000000;
+  color: #ffffff;
+  border: none;
+  padding: 5px 5px 0px 5px;
+  cursor: pointer;
+  margin: 0;
+  font-size: 14px;
+}
+
+.completedBtn:hover {
+  background: #c58d8d;
+}
+
+.todoItem {
+  padding: 5px 5px 0px 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+  margin: 0
+}
+
+.fa-check {
+  pointer-events: none;
+}
+
+.completed {
+  text-decoration: line-through;
+}
