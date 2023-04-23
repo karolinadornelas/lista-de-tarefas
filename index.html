@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>lista de tarefas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div id="container">
+        <div class="tarefas">
+            <div class="main-box">
+                <div class="top-box">
+                    <div class="tiny-box">
+                        <div class="title-box">
+                            <div class="title-one">C:\TAREFAS</div>
+                        </div>
+                        <div class="nav-box">
+                        <div class="smallbox d-min">
+                            <div class="sm-min"></div>
+                        </div>
+                        <div class="smallbox d-max">
+                            <div class="sm-max"></div>
+                        </div>
+                        <div class="smallbox d-x">
+                            <div class="sm-x">✖</div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <form>
+            <input type="text" placeholder="adicione uma nova tarefa" class="inputTarefa">
+            <button type="submit" class="botaoTarefa">
+                <i class="fas fa-plus-square"></i>
+            </button>
+        </form>
+
+            <div class="todoContainer">
+                <ul class="todoList"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
