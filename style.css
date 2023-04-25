@@ -21,7 +21,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  width: auto;
+  width: 500px;
   height: auto;
 }
 
@@ -31,7 +31,7 @@ body {
   height: auto;
   min-width: 210px;
   padding: 25px;
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
   border: 1px solid #252323;
   box-shadow: #5f5d5d;
 }
