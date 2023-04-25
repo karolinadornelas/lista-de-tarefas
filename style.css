@@ -27,7 +27,7 @@ body {
 .tarefas{
   margin-bottom: 45px;
   width: auto;
-  height: 500px;
+  height: auto;
   min-width: 210px;
   padding: 25px;
   background-color: rgb(255, 255, 255);
