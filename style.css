@@ -74,8 +74,8 @@ body {
 .smallbox{
   margin-right: 3px;
   padding: 3px;
-  width: 5px;
   height: 5px;
+  width: 5px;
   border: 1px solid #252323;
   cursor: help;
 }
